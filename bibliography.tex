@@ -1,0 +1,51 @@
+\documentclass[a4paper,10pt]{report}
+
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{latexsym}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage[utf8]{inputenc}
+% \usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lipsum}
+\usepackage[toc,page]{appendix}
+\usepackage{pdfpages}
+\usepackage{tabularx, booktabs}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\usepackage[utf8]{inputenc}
+
+\title{\LARGE {\bf
+	Multi-modal discursive analysis of online written conversations\\
+	\vspace{1cm} 
+	Bibliography
+}}
+
+\author{Soufian Salim}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/discourse_structure}
+
+\input{sections/message_processing}
+
+\input{sections/corpora}
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
+
+\end{document}
